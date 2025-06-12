@@ -13,7 +13,7 @@ uploaded_file = st.file_uploader("Choose file to upload", type=["jpg", "jpeg", "
 
 @st.cache_resource
 def load_pneumonia_model():
-    model = load_model("pneumonia_detection.h5")
+    model = load_model("pneumonia_detection.h5", compile=False)
     return model
 
 model = load_pneumonia_model()
