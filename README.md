@@ -1,5 +1,4 @@
-# Pneumonia_detection
-# Pneumonia Detection with Chest X-ray
+# 🫁 Pneumonia Detection with Chest X-ray 🫁
 
 This is a simple web-based application built with **Streamlit** that uses a pre-trained deep learning model to detect **Pneumonia** from chest X-ray images.
 
@@ -23,7 +22,7 @@ This is a simple web-based application built with **Streamlit** that uses a pre-
 
 ---
 
-## Getting started
+## ⚒️ Getting started
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/Pneumonia-detection-app.git
@@ -42,4 +41,10 @@ pip install -r requirements.txt
 ```
 I used google colab for running the app using ngrok, so double check the dependcies if needed
 
-## App Outputs
+---
+
+## 🌐 App Outputs
+<p align="center">
+  <img src="images/normal pred.png" alt="normal" width="500"/>
+  <img src="images/pneumonia pred.png" alt="pneumonia" width="500"/>
+</p>
