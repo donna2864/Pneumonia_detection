@@ -13,7 +13,7 @@ uploaded_file = st.file_uploader("Choose file to upload", type=["jpg", "jpeg", "
 
 @st.cache_resource
 def load_pneumonia_model():
-    model = tf.keras.models.load_model("pneumonia_detection.h5")
+    model = tf.keras.models.load_model("pneumonia_model.keras")
     return model
 
 model = load_pneumonia_model()
